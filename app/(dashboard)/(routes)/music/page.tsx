@@ -14,7 +14,7 @@ import { useRouter } from 'next/navigation';
 import Empty from "@/components/Empty";
 import Loader from "@/components/Loader";
 import { useProModal } from "@/hooks/useProModal";
-import toast from "react-hot-toast";
+import {toast} from "react-hot-toast";
 
 function Page() {
     const proModal = useProModal();

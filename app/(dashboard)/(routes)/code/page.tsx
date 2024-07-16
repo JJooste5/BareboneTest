@@ -18,6 +18,7 @@ import UserAvatar from "@/components/UserAvatar";
 import BotAvatar from "@/components/BotAvatar";
 import ReactMarkdown from "react-markdown";
 import { useProModal } from "@/hooks/useProModal";
+import {toast} from "react-hot-toast";
 
 function Page() {
     const router = useRouter();
